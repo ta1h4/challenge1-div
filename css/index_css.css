@@ -1,0 +1,99 @@
+body{background-color: blue;}
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.col{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+}
+
+.border{
+border-radius: 10px 0px 0px 10px;
+}
+
+.add{
+    width: 320px;
+    height: 500px;
+    
+    background-color: #e28525;
+}
+.addcolor{
+    background-color: #016972;
+}
+.addcolor2{
+    background-color: #00403f;
+}
+img
+{
+    margin: 50px 0px 0px 50px;
+    width: auto;
+    background-repeat: no-repeat;
+    height: auto;
+}
+.bslk{
+    font-size: 30px;
+
+}
+p{
+    margin-left: 50px;
+margin-right: 50px;
+font-size: 20px;
+color: white;
+}
+
+button{
+    margin-top: 70px;
+    margin-left: 50px;
+    height: 50px;
+    width: 150px;
+    background:white;
+    border: white 2px solid;
+    border-radius: 30px;
+    color: none ;
+    cursor: pointer;
+}
+button:hover{
+    background:none;
+    color: white;
+
+}
+.addradusleft{
+    border-radius: 10px 0px 0px 10px;
+}
+
+.addradusright{
+    border-radius: 0px 10px 10px 0px;
+}
+.btncolor1{color: #e28525;}
+.btncolor2{color: #016972;}
+.btncolor3{color: #00403f;}
+@media (max-width:1020px) {
+    .addradusort{
+        border-radius: 0px 10px 10px 0px;
+    }
+    .addradusright{
+        border-radius: 0px 0px 10px 10px;
+    }
+}
+@media (max-width:700px) {
+    .addradusleft{
+        border-radius: 10px 10px 0px 0px;
+    }
+    .addradusort{
+        border-radius: 0px 0px 0px 0px;
+    }
+    .addradusright{
+        border-radius: 0px 0px 10px 10px;
+    }
+}
